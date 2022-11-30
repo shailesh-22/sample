@@ -1,6 +1,6 @@
 .main-sidebar{
     /* background-color: #00AD53 !important; */
-    background-image: linear-gradient(to bottom, #346BFF, #00AD53)
+    background-image: linear-gradient(to bottom, #346BFF, #00AD53) !important
     
 }
 /* .nav-pills{
