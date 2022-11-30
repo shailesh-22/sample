@@ -2,11 +2,11 @@ import {
   CardContent,
   Card,
   Grid,
-  TextField,
   Typography,
   FormControlLabel,
   Button,
 } from '@mui/material'
+import TextField from '@mui/material/TextField';
 import React from "react";
 import { useForm, Controller } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
@@ -110,7 +110,7 @@ const Register3 = () => {
                   {...register("firstName")}
                   error={errors.firstName ? true : false}
                 />
-                <Typography variant="standard" color="textSecondary">
+                <Typography variant="standard"  color="textSecondary">
                   {errors.firstName?.message}
                 </Typography>
               </Grid>
