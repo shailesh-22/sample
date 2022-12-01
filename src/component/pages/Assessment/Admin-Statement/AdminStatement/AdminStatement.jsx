@@ -13,6 +13,7 @@ const AdminStatement = () => {
 
   let { data: questions } = useFetch("http://localhost:3004/questions");
 
+
   const [open, setOpen] = useState(false);
 
   const [openQA, setOpenQA] = useState(true);

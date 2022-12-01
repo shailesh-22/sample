@@ -105,6 +105,7 @@ const Register3 = () => {
                   id="firstName"
                   name="firstName"
                   label="Full Name"
+                  variant="standard"
                   fullWidth
                   margin="dense"
                   {...register("firstName")}
@@ -121,6 +122,7 @@ const Register3 = () => {
                   id="lastName"
                   name="lastName"
                   label="Last Name"
+                  variant="standard"
                   fullWidth
                   margin="dense"
                   {...register("lastName")}
@@ -137,6 +139,7 @@ const Register3 = () => {
                   id="email"
                   name="email"
                   label="Email"
+                  variant="standard"
                   fullWidth
                   margin="dense"
                   {...register("email")}
@@ -153,6 +156,7 @@ const Register3 = () => {
                   id="number"
                   name="number"
                   label="Phone Number"
+                  variant="standard"
                   type="number"
                   fullWidth
                   margin="dense"
@@ -217,6 +221,7 @@ const Register3 = () => {
                         <TextField
                         id="date"
                         label="Date-of-Birth"
+                        variant="standard"
                         type="date"
                         defaultValue="2017-05-24"
                         required
@@ -281,6 +286,7 @@ const Register3 = () => {
                   id="street"
                   name="street"
                   label="Street"
+                  variant="standard"
                   fullWidth
                   margin="dense"
                   {...register("street")}
@@ -297,6 +303,7 @@ const Register3 = () => {
                   id="city"
                   name="city"
                   label="City"
+                  variant="standard"
                   fullWidth
                   margin="dense"
                   {...register("city")}
@@ -312,6 +319,7 @@ const Register3 = () => {
                   required
                   id="state"
                   name="state"
+                  variant="standard"
                   label="State"
                   fullWidth
                   margin="dense"
@@ -329,6 +337,7 @@ const Register3 = () => {
                   id="country"
                   name="country"
                   label="Country"
+                  variant="standard"
                   fullWidth
                   margin="dense"
                   {...register("country")}
@@ -345,6 +354,7 @@ const Register3 = () => {
                   id="pincode"
                   name="pincode"
                   label="pincode"
+                  variant="standard"
                   type="number"
                   fullWidth
                   margin="dense"
