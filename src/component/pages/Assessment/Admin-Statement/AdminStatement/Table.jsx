@@ -18,8 +18,8 @@ import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import LastPageIcon from '@mui/icons-material/LastPage';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
-import { Button } from '@material-ui/core';
-import { Dialog, DialogActions, DialogContent, DialogTitle, TextareaAutosize, Typography } from '@material-ui/core'
+import { Button } from '@mui/material';
+import { Dialog, DialogActions, DialogContent, DialogTitle, TextareaAutosize, Typography } from '@mui/material'
 import { useState } from 'react';
 
 function TablePaginationActions(props) {
